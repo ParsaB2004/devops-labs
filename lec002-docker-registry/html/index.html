@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parsa Behjati | DevOps Labs</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      padding: 1.5rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 2.5rem 3rem;
+      max-width: 560px;
+      width: 100%;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    }
+    .tag {
+      display: inline-block;
+      color: var(--accent);
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+    }
+    h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+    p { color: var(--muted); line-height: 1.6; margin-bottom: 1.5rem; }
+    .stack { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .stack span {
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      border-radius: 999px;
+      padding: 0.25rem 0.8rem;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="tag">DevOps Labs</div>
+    <h1>Parsa Behjati</h1>
+    <p>
+      Computer science student learning DevOps hands-on.
+      This page is served by nginx from a container image stored in
+      a private registry and running as a Pod on Kubernetes.
+    </p>
+    <div class="stack">
+      <span>Docker</span>
+      <span>Private Registry</span>
+      <span>Kubernetes</span>
+      <span>nginx</span>
+    </div>
+  </main>
+</body>
+</html>

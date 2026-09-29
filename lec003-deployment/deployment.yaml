@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-kube
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello-kube
+  template:
+    metadata:
+      labels:
+        app: hello-kube
+    spec:
+      containers:
+        - name: web
+          image: localhost:5000/hello_kube:1.1.0
