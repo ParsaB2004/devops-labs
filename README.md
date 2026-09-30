@@ -10,8 +10,8 @@ Hands-on DevOps exercises I built while following a DevOps course. Each folder i
 |-----|-------|-------|
 | [lec002-docker-registry](lec002-docker-registry) | Containerized nginx page and a private Docker registry | Docker, nginx, registry |
 | [lec003-pod-manifest](lec003-pod-manifest) | Declarative Pod on a local kind cluster pulling from the private registry | Kubernetes, kind, kubectl |
-| [lec003-deployment](lec003-deployment) | Deployment with 3 replicas and self-healing | Kubernetes, kubectl |
 | [lec004-deployment-imperative](lec004-deployment-imperative) | Imperative Deployment, labels and selectors, port-forward to a Deployment | Kubernetes, kubectl |
+| [lec005-deployment-declarative](lec005-deployment-declarative) | Declarative Deployment (3 replicas), idempotent apply, self-healing | Kubernetes, kubectl |
 
 ## Environment
 

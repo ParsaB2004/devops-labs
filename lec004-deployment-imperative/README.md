@@ -2,7 +2,7 @@
 
 Create a Deployment with a single `kubectl` command, inspect the labels it puts on its Pods, reach a Pod through the Deployment, and clean up. The image comes from the private registry on `localhost:5000` (see [lec002](../lec002-docker-registry) and [lec003](../lec003-pod-manifest) for the setup).
 
-For the declarative version with 3 replicas, see [lec003-deployment](../lec003-deployment).
+For the declarative version with 3 replicas, see [lec005-deployment-declarative](../lec005-deployment-declarative).
 
 ## Create the Deployment
 
